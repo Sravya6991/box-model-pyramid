@@ -1,0 +1,40 @@
+.col-lg-3 {
+    background-color: rgb(27, 73, 133);
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.r3, .r5, .r7 {
+    background-color: rgb(38, 147, 136);
+}
+
+.r6, .r8, .r9 {
+    background-color: rgb(26, 164, 118);
+}
+
+.subcontent {
+    background-color: inherit;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: .9s ease;
+    overflow: hidden;
+    border-radius: inherit;
+}
+
+.subcontent ul {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 2;
+    transform: translate(0%, 30%);
+}
+
+.col-lg-3:hover .subcontent {
+    cursor: pointer;
+    height: 100%;
+}
